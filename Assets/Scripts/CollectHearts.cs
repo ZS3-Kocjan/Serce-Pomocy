@@ -1,6 +1,31 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class CollectHearts
+public class CollectHearts : MonoBehaviour
 {
-    
+    [SerializeField] private LayerMask playerLayers;
+    private SpriteRenderer heart;
+    private void Awake()
+    {
+        heart = GetComponent<SpriteRenderer>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!IsPlayer(other))
+            return;
+
+        addPoint();
+    }
+
+    private void addPoint()
+    {
+        Destroy(heart);
+    }
+
+    private bool IsPlayer(Collider2D other)
+    {
+        return (playerLayers.value & (1 << other.gameObject.layer)) != 0;
+    }
 }
