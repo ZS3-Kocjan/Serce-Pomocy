@@ -548,6 +548,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2744442941423194184, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744442941423194184, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.231347
@@ -590,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3363003261364484903, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_Name
-      value: Gamer
+      value: Player 1
       objectReference: {fileID: 0}
     - target: {fileID: 7371449063384774624, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_Mass
@@ -10484,9 +10504,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_Size.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_Size.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921098198531840755, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3542127132570728493, guid: ac118fef146409d47a50eb0a8f6e394b, type: 3}
     - target: {fileID: 4960510441130417267, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_Name
-      value: Gamer (1)
+      value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10737,13 +10789,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.58128977
-    height: 0.94117653
+    width: 0.99889016
+    height: 0.99750626
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.625
+  orthographic size: 6.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
