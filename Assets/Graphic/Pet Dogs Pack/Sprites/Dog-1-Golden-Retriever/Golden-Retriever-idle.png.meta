@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: a42c40f025f0a6c4da42dccc67b0b0eb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354338
+  packageName: Pet Dogs Pixel Art Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/Graphic/Pet Dogs Pack/Sprites/Dog-1-Golden-Retriever/Golden-Retriever-idle.png
+  uploadId: 845242
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -83,7 +90,9 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -390,10 +399,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 354338
-  packageName: Pet Dogs Pixel Art Pack
-  packageVersion: 1.0.0
-  assetPath: Assets/Graphic/Pet Dogs Pack/Sprites/Dog-1-Golden-Retriever/Golden-Retriever-idle.png
-  uploadId: 845242

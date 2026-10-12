@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 7b098fd8e10c0b74780c971894ace02d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354338
+  packageName: Pet Dogs Pixel Art Pack
+  packageVersion: 1.0.0
+  assetPath: Assets/Graphic/Pet Dogs Pack/Sprites/Dog-1-Golden-Retriever/Golden-Retriever-sleeping.png
+  uploadId: 845242
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -56,7 +63,9 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -156,10 +165,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 354338
-  packageName: Pet Dogs Pixel Art Pack
-  packageVersion: 1.0.0
-  assetPath: Assets/Graphic/Pet Dogs Pack/Sprites/Dog-1-Golden-Retriever/Golden-Retriever-sleeping.png
-  uploadId: 845242
