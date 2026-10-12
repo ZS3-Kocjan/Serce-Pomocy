@@ -30,6 +30,6 @@ public class TwoPlayerPixelCamera : MonoBehaviour
 
         float distance = Vector2.Distance(player1.position, player2.position);
 
-        pixelCamera.refResolutionY = 180;
+        pixelCamera.refResolutionY = 400;
     }
 }
