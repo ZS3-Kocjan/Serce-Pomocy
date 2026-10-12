@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-
-
+    [SerializeField] private Sprite pressedButtonTexture;
+    [SerializeField] private Sprite unpressedButtonTexture;
     public Rigidbody2D door;
     public int moveByX=2;
     private Vector2 ogSpot;
@@ -15,9 +15,12 @@ public class ButtonScript : MonoBehaviour
     public ButtonScript otherButtonScript = null;
     private List<int> toucher = new List<int>();
     private bool moveDoor= false;
+    private SpriteRenderer button;
+
     void Start()
     {
         ogSpot=door.transform.position;
+        button = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -73,6 +76,7 @@ public class ButtonScript : MonoBehaviour
             moveDoor=true;
             Debug.Log(moveDoor);
             toucher.Add(1);
+            button.sprite = pressedButtonTexture;
         }
     }
 
@@ -87,5 +91,6 @@ public class ButtonScript : MonoBehaviour
             return;
         }
         moveDoor=false;
+        button.sprite = unpressedButtonTexture;
     }
 }
