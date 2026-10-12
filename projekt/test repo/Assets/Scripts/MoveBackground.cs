@@ -34,10 +34,7 @@ public class MoveBackground : MonoBehaviour
         }
         else
         {
-            // transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x-moveBy,transform.position.y),0.8f*Time.deltaTime); 
-            GameObject clone = Instantiate(gameObject);
-            clone.transform.position = startPosition;
-            Destroy(gameObject);    
+            transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x-moveBy,transform.position.y),0.8f*Time.deltaTime);    
         }
     }
 }
