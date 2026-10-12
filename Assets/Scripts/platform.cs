@@ -4,8 +4,8 @@ public class platform : MonoBehaviour
 {
     public float speed = 1f;
 
-    private Vector3 touchingPosition = new Vector3(13.5f, 0f, 0f);
-    private Vector3 notTouchingPosition = new Vector3(13.5f, -3.2f, 0f);
+    private Vector3 touchingPosition = new Vector3(13.5f, -0.28f, 0f);
+    private Vector3 notTouchingPosition = new Vector3(13.5f, -3.28f, 0f);
 
     private bool playerTouching = false;
 
