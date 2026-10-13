@@ -873,11 +873,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7200003
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.32
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11173,11 +11173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.79
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.28
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5687771978810564103, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11286,10 +11286,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0009009009
-    y: 0
-    width: 0.9981982
-    height: 0.99764705
+    x: 0
+    y: 0.0024937657
+    width: 2.0981767
+    height: 0.957606
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
