@@ -6,6 +6,7 @@ public class CollectHearts : MonoBehaviour
 {
     [SerializeField] private LayerMask playerLayers;
     private SpriteRenderer heart;
+    private bool isAvailable = true;
     private void Awake()
     {
         heart = GetComponent<SpriteRenderer>();
@@ -21,7 +22,12 @@ public class CollectHearts : MonoBehaviour
 
     private void addPoint()
     {
-        Destroy(heart);
+        if (isAvailable)
+        {
+           Destroy(heart);
+           ScoreManager.instance.addPoint();
+            isAvailable = false;
+        }
     }
 
     private bool IsPlayer(Collider2D other)

@@ -1,16 +1,33 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static ScoreManager instance;
+    public Text scoreText;
+
+    public int levelScore = 0;
+    public int score = 0;
     void Start()
     {
-        
+        scoreText.text = levelScore.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        instance = this;
+    }
+
+    public void addPoint()
+    {
+        levelScore += 1;
+        scoreText.text = levelScore.ToString();
+    }
+
+    public void resetPoints()
+    {
+        score = 0;
+        scoreText.text = levelScore.ToString();
     }
 }
