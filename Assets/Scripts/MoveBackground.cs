@@ -23,18 +23,18 @@ public class MoveBackground : MonoBehaviour
         {
             reachedEnd=true;
         }
-        else if(transform.position.x == ogSpot.x)
+        else if(transform.position.x < ogSpot.x)
         {
             reachedEnd=false;
         }
         if(reachedEnd==false)
         {
             // transform.position = new Vector2(ogSpot.x,transform.position.y);
-            transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x+moveBy,transform.position.y),0.5f*Time.deltaTime);            
+            transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x+moveBy,transform.position.y),scrollSpeed*Time.deltaTime);            
         }
         else
         {
-            transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x-moveBy,transform.position.y),0.8f*Time.deltaTime);    
+            transform.position = Vector2.MoveTowards(transform.position,new Vector2(ogSpot.x-moveBy,transform.position.y),scrollSpeed*Time.deltaTime);    
         }
     }
 }

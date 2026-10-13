@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Gra_19-10-2026.slnx"
+    "dotnet.defaultSolution": "Fire-And-Water-By-US.slnx"
 }
