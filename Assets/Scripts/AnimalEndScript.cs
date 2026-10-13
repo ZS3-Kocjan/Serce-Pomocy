@@ -1,5 +1,6 @@
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.ParticleSystemJobs;
 using UnityEngine;
 
 public class AnimalEndScript : MonoBehaviour
