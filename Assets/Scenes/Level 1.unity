@@ -853,11 +853,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2744442941423194184, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_Size.x
-      value: 0.91
+      value: 0.876
       objectReference: {fileID: 0}
     - target: {fileID: 2744442941423194184, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_Size.y
-      value: 1.06
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 3175937701358128490, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_LocalScale.x
@@ -918,6 +918,14 @@ PrefabInstance:
     - target: {fileID: 7371449063384774624, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
       propertyPath: m_Mass
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371449063384774624, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371449063384774624, guid: fd4cf2eabd1d42946bee9e0ee577322c, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -13426,15 +13434,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_Size.x
-      value: 0.92
+      value: 0.876
       objectReference: {fileID: 0}
     - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_Size.y
-      value: 1.05
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.875
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2083138226773653442, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
@@ -13444,6 +13452,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 3542127132570728493, guid: ac118fef146409d47a50eb0a8f6e394b, type: 3}
+    - target: {fileID: 3921098198531840755, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921098198531840755, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1233584791
+      objectReference: {fileID: 0}
     - target: {fileID: 4960510441130417267, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_Name
       value: Player 2
@@ -13503,6 +13519,14 @@ PrefabInstance:
     - target: {fileID: 5944783129803766835, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: m_Mass
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944783129803766835, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944783129803766835, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8814978302746555085, guid: 2ccd9b5b614abdb49b528549891cfc07, type: 3}
       propertyPath: jumpForce
@@ -13575,10 +13599,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1.3345389
-    height: 1.0823529
+    x: 0.0015810276
+    y: 0.002809778
+    width: 0.99604744
+    height: 0.99466145
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -38104,9 +38128,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243058463}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a44bd99632110af4b864a7e993a09202, type: 2}
+  m_Controller: {fileID: 9100000, guid: b19a4fadd6163c84982e52914d87408a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -40595,9 +40619,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311690906}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b19a4fadd6163c84982e52914d87408a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 01eaa4f8fb4711c4b89aac20ab1aed74, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
