@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine.ParticleSystemJobs;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimalEndScript : MonoBehaviour
 {
@@ -24,8 +25,10 @@ public class AnimalEndScript : MonoBehaviour
     {
         if (playersNear == 2 && levelEnded==false)
         {
-            
-            levelEnded=true;
+            if(SM.levelScore == 6)
+            {
+                levelEnded = true;
+            }
             StartCoroutine(levelSummary());
         }
     }
@@ -49,6 +52,11 @@ public class AnimalEndScript : MonoBehaviour
                 yield return new WaitForSeconds(1);
             }
             i++;
+        }
+        Debug.Log("Koniec");
+        if (levelEnded == true)
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }

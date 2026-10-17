@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using Unity.Tutorials.Editor;
 using System.ComponentModel.Design.Serialization;
 
-public class Play1Level : MonoBehaviour
+public class PlayLevel : MonoBehaviour
 {
     public Button playLevelButton;
     public string sceneName;
