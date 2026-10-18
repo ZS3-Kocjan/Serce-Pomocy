@@ -25,10 +25,7 @@ public class AnimalEndScript : MonoBehaviour
     {
         if (playersNear == 2 && levelEnded==false)
         {
-            if(SM.levelScore == 6)
-            {
-                levelEnded = true;
-            }
+            levelEnded = true;
             StartCoroutine(levelSummary());
         }
     }
