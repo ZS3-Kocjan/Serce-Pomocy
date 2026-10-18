@@ -4326,9 +4326,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453112775}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b19a4fadd6163c84982e52914d87408a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 01eaa4f8fb4711c4b89aac20ab1aed74, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8179,9 +8179,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555530364}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a44bd99632110af4b864a7e993a09202, type: 2}
+  m_Controller: {fileID: 9100000, guid: b19a4fadd6163c84982e52914d87408a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19771,7 +19771,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.40625
+  orthographic size: 1.5625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -30573,7 +30573,7 @@ Transform:
   m_GameObject: {fileID: 1642626944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.8083, y: -4.71274, z: 0}
+  m_LocalPosition: {x: 3.86, y: -4.88, z: 0}
   m_LocalScale: {x: 18.193357, y: 18.116077, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
