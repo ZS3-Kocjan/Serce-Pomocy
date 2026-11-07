@@ -6,7 +6,7 @@ W skrócie ta gra to takie "Ogień i Woda" tylko ze ekonom-edition.
 **Podziękowania dla**
 
 <p align="center">
-    <!-- <a href="https://github.com/Collappo" rel="Collappo">
-      <img src="https://avatars.githubusercontent.com/u/123423293?v=4" style="border-radius: 15px; height: 100px" />
-    </a> -->
+    <a href="https://github.com/Collappo" rel="Collappo">
+      <img src=".github/docs/collappo_awatar.png" style="border-radius: 15px; height: 100px" />
+    </a>
 </p>
