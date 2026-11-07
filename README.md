@@ -7,12 +7,12 @@ W skrócie ta gra to takie "Ogień i Woda" tylko ze ekonom-edition.
 
 <p align="center">
     <a href="https://github.com/Collappo" rel="Collappo">
-      <img src=".github/docs/collappo_awatar.png" style="border-radius: 15px; height: 100px" />
+      <img src=".github/docs/collappo_awatar.png" height=100 />
     </a>
     <a href="https://github.com/Crunczyslaw" rel="Crunczysław">
-      <img src=".github/docs/crunczyslaw_awatar.png" style="border-radius: 15px; height: 100px" />
+      <img src=".github/docs/crunczyslaw_awatar.png" height=100 />
     </a>
     <a href="https://github.com/Piotrek6845" rel="Piotrek6845">
-      <img src=".github/docs/piotrek6845_awatar.png" style="border-radius: 15px; height: 100px" />
+      <img src=".github/docs/piotrek6845_awatar.png" height=100 />
     </a>
 </p>
