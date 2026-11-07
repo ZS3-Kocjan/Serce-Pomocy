@@ -9,4 +9,10 @@ W skrócie ta gra to takie "Ogień i Woda" tylko ze ekonom-edition.
     <a href="https://github.com/Collappo" rel="Collappo">
       <img src=".github/docs/collappo_awatar.png" style="border-radius: 15px; height: 100px" />
     </a>
+    <a href="https://github.com/Crunczyslaw" rel="Crunczysław">
+      <img src=".github/docs/crunczyslaw_awatar.png" style="border-radius: 15px; height: 100px" />
+    </a>
+    <a href="https://github.com/Collappo" rel="Collappo">
+      <img src=".github/docs/collappo_awatar.png" style="border-radius: 15px; height: 100px" />
+    </a>
 </p>
