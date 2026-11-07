@@ -6,7 +6,7 @@ W skrócie ta gra to takie "Ogień i Woda" tylko ze ekonom-edition.
 **Podziękowania dla**
 
 <p align="center">
-    <a href="https://github.com/roboflow/supervision/graphs/contributors">
+    <a href="https://contrib.rocks/image?repo=ZS3-Kocjan/Serce-Pomocy">
       <img src="https://contrib.rocks/image?repo=ZS3-Kocjan/Serce-Pomocy" />
     </a>
 </p>
